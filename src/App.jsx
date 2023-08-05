@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import EastIcon from '@mui/icons-material/East';
 
 const images = [
   "https://images.pexels.com/photos/12825195/pexels-photo-12825195.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <h2 className='title'>Project 1 Carousel</h2>
       <div className='slider'>
-        <div className='left-arrow' onClick={prevSlide}>
+        <div className='arrow' onClick={prevSlide}>
           <KeyboardBackspaceIcon/>
         </div>
         {images.map((image, index) => current === index && (
@@ -37,8 +37,8 @@ function App() {
             <img src={image} alt='images'/>
           </div>
         ))}
-        <div className='right-arrow' onClick={nextSlide}>
-          <ArrowRightAltIcon/>
+        <div className='arrow' onClick={nextSlide}>
+          <EastIcon/>
         </div>
       </div>
     </div>
