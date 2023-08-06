@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Questions from './Components/Questions';
+import Navbar from './Components/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+    <Navbar/>
     // <App />
-    <Questions/>
+    // <Questions/>
 );
 
 // If you want to start measuring performance in your app, pass a function
