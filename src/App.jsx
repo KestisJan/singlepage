@@ -7,6 +7,7 @@ import Innovation from './Components/Innovation';
 import Aluminium from './Components/Aluminium';
 import Iconbar from './Components/Iconbar';
 import Motto from './Components/Motto';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Aluminium/>
       <Iconbar/>
       <Motto/>
+      <Footer/>
     </div>
   );
 }
