@@ -6,7 +6,7 @@ import Vision from './Components/Vision';
 import Innovation from './Components/Innovation';
 import Aluminium from './Components/Aluminium';
 import Iconbar from './Components/Iconbar';
-
+import Motto from './Components/Motto';
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
       <Innovation/>
       <Aluminium/>
       <Iconbar/>
+      <Motto/>
     </div>
   );
 }
