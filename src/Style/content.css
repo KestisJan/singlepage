@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    margin: 0 calc((100% - 1000px) / 2);
+    font-size: 1em;
+    gap: 2em;
+}
+
+.logo {
+    width: 15%;
+}
+.bg {
+    width: 100%;
+}
